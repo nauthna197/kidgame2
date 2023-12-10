@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kidgame2/static/css/main.0dfc0b91.css",
+    "main.js": "/kidgame2/static/js/main.5c58b46e.js",
+    "index.html": "/kidgame2/index.html",
+    "main.0dfc0b91.css.map": "/kidgame2/static/css/main.0dfc0b91.css.map",
+    "main.5c58b46e.js.map": "/kidgame2/static/js/main.5c58b46e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dfc0b91.css",
+    "static/js/main.5c58b46e.js"
+  ]
+}
