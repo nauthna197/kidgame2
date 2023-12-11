@@ -1,14 +1,21 @@
 .main {
   display: flex;
   margin-top: 20px;
+  width: 100%;
 }
 .music-image {
-  width: 70%;
-  min-width: 800px;
+  /* width: 100%; */
+  /* min-width: 700px; */
+  display: flex;
+  position: relative;
 }
 
-.music-image img {
-  width: 100%;
+.music-image>img {
+  /* width: 100%; */
+  width: 800px;
+  z-index: 1;
+  margin-left: -100px;
+  /* margin-left: 130px */
 }
 
 .card-wrapper {
@@ -19,8 +26,30 @@
 
 .box {
   cursor: pointer;
+  z-index: 2;
 }
 
 .box:hover {
   opacity: 0.8;
+}
+
+.music-image .left-icon {
+  width: 120px;
+  /* height: 60px; */
+}
+
+.icon-wrapper {
+  /* position: absolute; */
+  display: grid;
+  row-gap: 180px;
+  margin-top: 30px;
+  grid-template-columns: 130px;
+  /* min-width: 20%; */
+  z-index: 99;
+}
+.audio-wrapper {
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+  z-index: 2;
 }
