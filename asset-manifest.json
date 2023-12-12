@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kidgame2/static/css/main.94463b0d.css",
-    "main.js": "/kidgame2/static/js/main.885b529a.js",
-    "static/js/850.0089deb9.chunk.js": "/kidgame2/static/js/850.0089deb9.chunk.js",
-    "static/js/353.0468dbc8.chunk.js": "/kidgame2/static/js/353.0468dbc8.chunk.js",
-    "index.html": "/kidgame2/index.html",
-    "main.94463b0d.css.map": "/kidgame2/static/css/main.94463b0d.css.map",
-    "main.885b529a.js.map": "/kidgame2/static/js/main.885b529a.js.map",
-    "850.0089deb9.chunk.js.map": "/kidgame2/static/js/850.0089deb9.chunk.js.map",
-    "353.0468dbc8.chunk.js.map": "/kidgame2/static/js/353.0468dbc8.chunk.js.map"
+    "main.css": "/static/css/main.3c033f9e.css",
+    "main.js": "/static/js/main.30f2c539.js",
+    "static/js/850.0089deb9.chunk.js": "/static/js/850.0089deb9.chunk.js",
+    "static/js/353.0468dbc8.chunk.js": "/static/js/353.0468dbc8.chunk.js",
+    "index.html": "/index.html",
+    "main.3c033f9e.css.map": "/static/css/main.3c033f9e.css.map",
+    "main.30f2c539.js.map": "/static/js/main.30f2c539.js.map",
+    "850.0089deb9.chunk.js.map": "/static/js/850.0089deb9.chunk.js.map",
+    "353.0468dbc8.chunk.js.map": "/static/js/353.0468dbc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94463b0d.css",
-    "static/js/main.885b529a.js"
+    "static/css/main.3c033f9e.css",
+    "static/js/main.30f2c539.js"
   ]
 }
