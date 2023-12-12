@@ -1,0 +1,18 @@
+.audio-wrapper {
+    position: absolute;
+    left: 120px;
+    top: -10px;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.content-audio {
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.content-audio  audio{
+    width: 200px;
+}
+

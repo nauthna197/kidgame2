@@ -1,34 +1,30 @@
 import './App.css';
 import Draggable from 'react-draggable';
-import { AudioRecorder, useAudioRecorder } from "react-audio-voice-recorder";
+import AudioWrapper from './AudioRecorder';
 import { useState } from 'react';
 
 function App() {
-  const [audioDataList, setAudioDataList] = useState([]);
-  const recorderControls = useAudioRecorder();
-  const addAudioElement = (blob) => {
-    const url = URL.createObjectURL(blob);
-    const newData = [...audioDataList];
-    newData.push(url);
-    setAudioDataList(newData);
-  };
+  const [selectedButton, onSelectedButton] = useState("");
+
   return (
     <div className="App">
+      <div className="button-group">
+        <button onClick={() => onSelectedButton("1")} className={selectedButton === "1" ? 'active-class' : ''}>Nhóm 1</button>
+        <button onClick={() => onSelectedButton("2")} className={selectedButton === "2" ? 'active-class' : ''}>Nhóm 2</button>
+      </div>
       <div className="main">
         <div className="music-image">
           <div className="icon-wrapper">
             <img className="left-icon" src="./images/Picture1.png" alt="" />
             <img className="left-icon" src="./images/Picture2.png" alt="" />
-            <img className="left-icon" src="./images/Picture3.png" alt="" />
+            <img className="left-icon" style={{marginBottom: '-45px'}} src="./images/Picture3.png" alt="" />
             <img className="left-icon" src="./images/Picture4.png" alt="" />
           </div>
           <img src="./images/music.png" alt="" />
-          <div className="audio-wrapper">
-            <AudioRecorder
-              onRecordingComplete={(blob) => addAudioElement(blob)}
-              recorderControls={recorderControls}
-            />
-          </div>
+          <AudioWrapper top='136px' />
+          <AudioWrapper top='360px' />
+          <AudioWrapper top='600px' />
+          <AudioWrapper top='790px' />
         </div>
         <div className='card-wrapper'>
           {Array(16).fill(0).map((e, index) => {
