@@ -19,19 +19,21 @@ const AudioWrapper = ({ top }) => {
                     <audio controls>
                         <source src={data} />
                     </audio>
-                    {/* <CloseCircleOutlined
+                    <img
+                        alt=""
+                        src="./images/cancel.png"
                         onClick={() => {
                             const newData = [...audioDataList];
                             newData.splice(index, 1);
                             setAudioDataList(newData);
                         }}
-                        className="icon-close"
                         style={{
-                            fontSize: "25px",
-                            color: "#DF2E38",
+                            width: "20px",
+                            // fontSize: "25px",
+                            // color: "#DF2E38",
                             cursor: "pointer",
                         }}
-                    /> */}
+                    />
                 </div>
             ))}
             <AudioRecorder

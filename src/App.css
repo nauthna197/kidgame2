@@ -3,7 +3,6 @@
   margin-top: 20px;
   width: 100%;
   justify-content: center;
-  height: 800px;
 }
 
 .music-image {
@@ -15,10 +14,10 @@
 
 .music-image>img {
   /* width: 100%; */
-  width: 800px;
+  width: 600px;
   z-index: 1;
   margin-left: -100px;
-  height: 800px;
+  height: 600px;
   /* margin-left: 130px */
 }
 
@@ -34,7 +33,7 @@
 }
 
 .box img {
-  width: 150px;
+  width: 100px;
 }
 
 .box:hover {
@@ -42,17 +41,15 @@
 }
 
 .music-image .left-icon {
-  width: 120px;
+  width: 80px;
 }
 
 .icon-wrapper {
   /* position: absolute; */
   display: grid;
-  row-gap: 118px;
-  margin-top: 30px;
   grid-template-columns: 130px;
-  /* min-width: 20%; */
   z-index: 99;
+  row-gap: 115px;
 }
 
 
@@ -82,4 +79,14 @@
 .active-class {
   background-color: #87fc52;
   color: #fff !important;
+}
+
+.music-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #129700, #6aec00);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
