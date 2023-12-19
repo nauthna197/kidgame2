@@ -8,11 +8,11 @@ function App() {
 
   return (
     <div className="App">
+      <div className='music-title'>Bản nhạc vui nhộn</div>
       <div className="button-group">
         <button onClick={() => onSelectedButton("1")} className={selectedButton === "1" ? 'active-class' : ''}>Nhóm 1</button>
         <button onClick={() => onSelectedButton("2")} className={selectedButton === "2" ? 'active-class' : ''}>Nhóm 2</button>
       </div>
-      <div className='music-title'>Bản nhạc vui nhộn</div>
       <div className="main">
         <div className="music-image">
           <div className="icon-wrapper">
@@ -25,7 +25,7 @@ function App() {
           <AudioWrapper top='140px' />
           <AudioWrapper top='320px' />
           <AudioWrapper top='470px' />
-          <AudioWrapper top='615px' />
+          <AudioWrapper top='595px' />
         </div>
         <div className='card-wrapper'>
           {Array(16).fill(0).map((e, index) => {
